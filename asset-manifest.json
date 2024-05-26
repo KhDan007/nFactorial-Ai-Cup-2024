@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nFactorial-Ai-Cup-2024/static/css/main.cb8bc58a.css",
-    "main.js": "/nFactorial-Ai-Cup-2024/static/js/main.38c95e89.js",
+    "main.js": "/nFactorial-Ai-Cup-2024/static/js/main.d4b72ef5.js",
     "static/media/user.png": "/nFactorial-Ai-Cup-2024/static/media/user.c920752422c11377083e.png",
     "index.html": "/nFactorial-Ai-Cup-2024/index.html",
     "main.cb8bc58a.css.map": "/nFactorial-Ai-Cup-2024/static/css/main.cb8bc58a.css.map",
-    "main.38c95e89.js.map": "/nFactorial-Ai-Cup-2024/static/js/main.38c95e89.js.map"
+    "main.d4b72ef5.js.map": "/nFactorial-Ai-Cup-2024/static/js/main.d4b72ef5.js.map"
   },
   "entrypoints": [
     "static/css/main.cb8bc58a.css",
-    "static/js/main.38c95e89.js"
+    "static/js/main.d4b72ef5.js"
   ]
 }
