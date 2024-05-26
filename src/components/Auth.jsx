@@ -14,7 +14,7 @@ export const Auth = () => {
 
   const handleRegister = async () => {
     try {
-      await axios.post("http://localhost:4000/register", { username, password });
+      await axios.post("https://mealvision-ai.onrender.com/register", { username, password });
       setMessage("User registered successfully");
     } catch (error) {
       setMessage("Registration failed");
@@ -24,7 +24,7 @@ export const Auth = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://localhost:4000/login", { username, password });
+      const response = await axios.post("https://mealvision-ai.onrender.com/login", { username, password });
       setToken(response.data.token);
       setMessage("Login successful");
       // Redirect to profile page after successful login

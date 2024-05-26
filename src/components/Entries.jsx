@@ -14,7 +14,7 @@ export const Entries = () => {
     formData.append('image', selectedFile);
 
     try {
-      const response = await axios.post('http://localhost:4000/analyze', formData, {
+      const response = await axios.post('https://mealvision-ai.onrender.com/analyze', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

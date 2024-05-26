@@ -14,7 +14,7 @@ const router = express.Router();
 
 // CORS configuration (moved to top for better readability)
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://khdan007.github.io/nFactorial-Ai-Cup-2024/',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
 };
